@@ -1,5 +1,5 @@
 // Support for 2.13 - 2.14
-const { _registerMacros } = Ember.__loader.require('ember-glimmer/syntax');
+const { _registerMacros } = Ember.__loader.require('ember-glimmer');
 const { compileArgs } = Ember.__loader.require('@glimmer/runtime');
 
 _registerMacros(blocks => {
